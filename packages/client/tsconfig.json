@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "../../types/vite.d.ts",
+    "src/**/*",
+    "src/**/*.vue"
+  ],
+  "exclude": ["**/__tests__/*"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.client.tsbuildinfo",
+    "composite": true,
+    "skipLibCheck": true
+  }
+}
